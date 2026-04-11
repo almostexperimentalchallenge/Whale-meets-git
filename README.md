@@ -1,17 +1,18 @@
-OS : Ubuntu 24.04.4 LTS
-Shell : Bash
-Docker Version : 29.3.1
-Git Version : 2.43.0
+- [ ] OS : Ubuntu 24.04.4 LTS
+- [ ] Shell : Bash
+- [ ] Docker Version : 29.3.1
+- [ ] Git Version : 2.43.0
 
-Check List
-Terminal O
-Permisson X
-Docker O
-Dockerfile X
-Port X
-Volume X
-Git X
-Github X
+|Check List|OX|
+|:-:|:-:|
+|Terminal|O|
+|Permisson|X|
+|Docker|O|
+|Dockerfile|X|
+|Port|X|
+|Volume|X|
+|Git|X|
+|Github|X|
 
 14.평가기준
 절대경로는 사용자가 현재 접근한 디렉토리와는 전혀 관계없이 정혹한 경로를 입력하며 접근하는 기본적인 방법이며 사용자가 처음위치한 루트에서 다른 경로로 이동하고 싶은경우에 
