@@ -1,9 +1,9 @@
-## Environment
+## 1. Environment
 - [ ] OS : Ubuntu 24.04.4 LTS
 - [ ] Shell : Bash
 - [ ] Docker Version : 29.3.1
 - [ ] Git Version : 2.43.0
-##
+## 2.
 |Check List|OX|
 |:-|:-:|
 |Terminal|O|
@@ -24,7 +24,7 @@
 숫자 4는 읽기, 숫자 2는 쓰기, 숫자 1은 실행권한을 의미합니다.
 예를 들어 777=rwxrwxrwx는 소유자, 그룹, 기타에 일기,쓰기,실행 권한이 할당된 것으로 이해할 수 있습니다.
 ## 오류 해결 내용
-4월 1일 
+### 4월 1일 
 도커데스크탑을 deb패키지로 설치하려 했으나 
 ```
 Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root? 
@@ -41,7 +41,7 @@ Run 'docker run --help' for more information
 ```
 가 나오며 도커 라이브러리에서 풀링과 실행이 되지 않았습니다. 원인을 찾아보니 우분투 버전표기의 가장 마지막에 위치한 .4는 생략해야되는 특징이 있는 것을 알게 되었습니다.
 ##
-4월 10일
+### 4월 10일
 이미 도커를 설치하고 헬로월드 이미지와 더불어 우분투 이미지가 실행될 컨테이너를 생성하여 실행에 성공했지만 
 오늘 다시 container -ls로 생성된 컨테이너들 목록을 확인하려했더니
 ```
